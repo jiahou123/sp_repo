@@ -5,8 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data  
-@NoArgsConstructor //无参构造
-@AllArgsConstructor //全参构造
+@NoArgsConstructor 
+@AllArgsConstructor 
 public class Item {
 	//编号
 	private Integer id;
@@ -15,5 +15,6 @@ public class Item {
 	private Integer number;
 	//111111
 	//33333333
+	//222222
 }
 
